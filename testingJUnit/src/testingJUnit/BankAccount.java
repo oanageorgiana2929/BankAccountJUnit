@@ -49,6 +49,11 @@ public double withdraw(double amount) {
    }
 } 
 public double deposit(double amount) {
+	/*	try {
+			Thread.sleep(5);
+		} catch (InterruptedException e) {
+			
+		}  */
 		return balance +=amount;
 		}
 
